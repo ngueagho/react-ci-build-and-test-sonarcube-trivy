@@ -1,0 +1,13 @@
+name: CI/CD 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # Build Job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      
